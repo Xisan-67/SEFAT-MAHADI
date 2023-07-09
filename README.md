@@ -1,29 +1,19 @@
 # SEFAT-MAHADI
 
 
-` pkg update 
-
-pkg upgrade 
-
-pkg install python 
-
-pip install requests 
-
-pip install mechanize 
-
-pip install beautifulsoup4
-
-pkg install git
-
+` pkg update-y &&
+pkg upgrade-y &&
+pkg install python-y &&
+pip install requests-y &&
+pip install mechanize-y &&
+pip install beautifulsoup4-y &&
+pkg install git-y &&
 rm -rf SPIDER `
 
 
 ` git clone https://github.com/Xisan-67/SEFAT-MAHADI `
-
-
-` cd SPIDER `
-
-` python3 SPIDER.py `
+` cd SPIDER 
+  python3 SPIDER.py `
 
 
 # Thanks Guys `

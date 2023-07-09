@@ -11,9 +11,12 @@ pkg install git-y &&
 rm -rf SPIDER `
 
 
-` git clone https://github.com/Xisan-67/SEFAT-MAHADI `
-` cd SPIDER 
-  python3 SPIDER.py `
+#` git clone https://github.com/Xisan-67/SEFAT-MAHADI `
+
+
+` cd SPIDER `
+  
+` python3 SPIDER.py `
 
 
 # Thanks Guys `
